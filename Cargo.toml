@@ -1,0 +1,12 @@
+[package]
+name = "rust-libwally"
+version = "0.1.0"
+authors = ["Riccardo Casatta <riccardo@casatta.it>"]
+build = "build.rs"
+
+[dependencies]
+libc = "0.2"
+
+[build-dependencies]
+cc = "1.0"
+
